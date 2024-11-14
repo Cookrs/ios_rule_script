@@ -1,1 +1,17 @@
+# Talkatone 规则
+# 该规则将Talkatone的流量通过指定的节点代理
+[Rule]
 
+# Talkatone服务器的域名
+DOMAIN-SUFFIX,talkatone.com,指定节点
+DOMAIN-SUFFIX,whistlephone.com,指定节点
+DOMAIN-SUFFIX,talkatone.me,指定节点
+DOMAIN-SUFFIX,talkatone.net,指定节点
+
+# Talkatone应用可能使用的IP地址段
+IP-CIDR,104.25.80.0/24,指定节点
+IP-CIDR,104.25.81.0/24,指定节点
+IP-CIDR,104.20.56.0/22,指定节点
+
+# 默认规则
+FINAL,DIRECT
