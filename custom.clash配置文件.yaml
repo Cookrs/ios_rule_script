@@ -52,20 +52,20 @@ proxy-groups:
   - name: 🎶 抖音
     type: select
     proxies:
-      - 🔰 节点选择
       - 🎯 全球直连
+      - 🔰 节点选择
 
   - name: 💰 PayPal
     type: select
     proxies:
-      - 🔰 节点选择
       - 🎯 全球直连
+      - 🔰 节点选择
 
   - name: 🤖 ChatGPT
     type: select
     proxies:
-      - 🔰 节点选择
       - 🎯 全球直连
+      - 🔰 节点选择
 
   - name: 🌍 国外媒体
     type: select
@@ -79,6 +79,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -88,8 +89,8 @@ proxy-groups:
   - name: 📲 电报信息
     type: select
     proxies:
-      - 🔰 节点选择
       - 🎯 全球直连
+      - 🔰 节点选择
 
   - name: 🍎 苹果服务
     type: select
@@ -102,11 +103,13 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
+      
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -157,6 +160,10 @@ rules:
   - DOMAIN-SUFFIX,openaiapi.com,🤖 ChatGPT
   - DOMAIN-SUFFIX,openai-public.com,🤖 ChatGPT
   - DOMAIN-SUFFIX,openaicdn.com,🤖 ChatGPT
+  - DOMAIN,api.myip.1a,DIRECT
+  - DOMAIN,api.ipsb,DIRECT
+  - DOMAIN,ipapi.com,DIRECT
+  - DOMAIN,ip-api.com,DIRECT
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
   - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
