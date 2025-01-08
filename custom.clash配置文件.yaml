@@ -170,6 +170,11 @@ rules:
   - DOMAIN-SUFFIX,oracle.com,☁ Oracle
   - IP-CIDR,137.255.0.0/16,☁ Oracle
   - IP-CIDR,137.255.128.0/17,☁ Oracle
+  - DOMAIN-SUFFIX,sunlogin.oray.com, 🎯 全球直连
+  - DOMAIN-SUFFIX,oray.com, 🎯 全球直连
+  - DOMAIN-SUFFIX,sunlogin.com, 🎯 全球直连
+  - DOMAIN-SUFFIX,update.sunlogin.oray.com, 🎯 全球直连
+  - DOMAIN-SUFFIX,sunlogin.oray.net, 🎯 全球直连
   - DOMAIN,api.myip.1a,DIRECT
   - DOMAIN,api.ipsb,DIRECT
   - DOMAIN,ipapi.com,DIRECT
